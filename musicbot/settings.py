@@ -13,7 +13,7 @@ class Settings():
         self.guild = guild
         self.json_data = None
         self.config = None
-        self.path = '{}\\generated\\settings.json'.format(dir_path)
+        self.path = '{}/generated/settings.json'.format(dir_path)
 
         self.settings_template = {
             "id": 0,

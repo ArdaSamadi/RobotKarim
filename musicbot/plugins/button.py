@@ -14,7 +14,8 @@ class Button(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message):
-
+        print(message)
+        print(message.guild)
         sett = utils.guild_to_settings[message.guild]
         button_name = sett.get('button_emote')
 
