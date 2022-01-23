@@ -1,3 +1,8 @@
+import os
+BOT_TOKEN: str = os.environ['BOT_TOKEN']
+SPOTIFY_ID: str = os.environ['SPOTIFY_ID']
+SPOTIFY_SECRET: str = os.environ['SPOTIFY_SECRET']
+
 BOT_PREFIX = "karim "
 
 EMBED_COLOR = 0x4dd4d0  #replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
