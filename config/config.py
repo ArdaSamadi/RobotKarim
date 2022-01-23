@@ -1,7 +1,3 @@
-BOT_TOKEN: str = "OTA3Nzc4MjU0MTg4OTc4MjI2.YYsIYQ.MUYc2iCpwD9zpSYTNmjPvjhg_Og"
-SPOTIFY_ID: str = "717451da72d140c4ae20715c82d6c1b4"
-SPOTIFY_SECRET: str = "006805ed3a0246a0bf4d7c0dbd252ea9"
-
 BOT_PREFIX = "karim "
 
 EMBED_COLOR = 0x4dd4d0  #replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
